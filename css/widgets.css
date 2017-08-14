@@ -1,0 +1,39 @@
+.jobifyPlugin__api__half {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.jobifyPlugin__api__half img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.jobifyPlugin__api__half:first-child {
+  padding-right: 5px;
+}
+
+.jobifyPlugin__api__half:last-child {
+  padding-left: 5px;
+}
+
+.jobifyPlugin__api__row {
+  overflow: hidden;
+}
+
+.jobifyPlugin__api {
+  display: block;
+  margin-bottom: 1em;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+.jobifyPlugin__api__req {
+  font-weight: bold;
+  color: #d54e21;
+}
+
+.jobifyPlugin__indeed-attribution {}
